@@ -1,0 +1,6 @@
+# Vendored prebuilt ARM GCC toolchains — download via repo/build scripts (GPL-3.0 source obligation, ~1.3 GB)
+/prebuilts/
+# repo tool mirror (git history / bare objects) — not part of the source snapshot
+/.repo/
+# Single file exceeding GitHub's 100 MB hard limit (prebuilt debug tool)
+/tools/linux/PinDebug/pin_debug_tool_v1.11_for_linux.tar
